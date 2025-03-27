@@ -1,0 +1,36 @@
+.addDoctor {
+    width: calc(85vw - 135px);
+}
+.addDoctor_title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.addDoctor_container {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: var(--hover-text-color);
+}
+.calender_main {
+    width: 27%;
+}
+.info_title {
+    margin-bottom: 20px;
+}
+.selectDoctor_title {
+    margin-bottom: 20px;
+}
+.actions_container {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: var(--hover-text-color);
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 30px;
+}
+.addDoctor_actions {
+    width: calc(73% - 20px);
+}

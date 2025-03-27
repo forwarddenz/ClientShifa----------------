@@ -1,0 +1,30 @@
+.appointmentlist {
+    width: calc(100% - 15px);
+    border-collapse: collapse;
+    width: 100%;
+}
+.appointmentlist td.delete_cell {
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    padding-left: 5px;
+    color: var(--primary-color);
+}
+.appointmentlist td, .appointmentlist th {
+    padding: 5px 0 5px 0;
+    font-weight: 400;
+    border: 1px solid var(--primary-color);
+    text-align: center;
+}
+.time {
+    width: 12%;
+}
+.name {
+    width: 27%;
+}
+.comment {
+    width: 39%;
+}
+.phone {
+    width: calc(22%);
+}

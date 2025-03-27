@@ -1,0 +1,55 @@
+.doctors {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: var(--hover-text-color);
+    border-radius: 20px;
+    padding: 30px;
+}
+.doctors .table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.doctor {
+    border: 1px solid var(--primary-color);
+    border-radius: 20px;
+    color: var(--text-color);
+    padding: 15px;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    transition: .3s all;
+}
+.doctor:hover {
+    color: var(--hover-text-color);
+    background-color: var(--primary-color);
+}
+.doctor:hover .docot_desc {
+    color: var(--hover-text-color);
+}
+.doctor_info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 5px;
+}
+.doctor_name {
+    font-weight: 400;
+}
+.docot_desc {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--primary-color);
+    transition: .3s all;
+}
+.interactive {
+    width: calc(73% - 20px);
+}
+.date {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.interactive_exit {
+    font-size: 20px;
+    color: var(--primary-color);
+}

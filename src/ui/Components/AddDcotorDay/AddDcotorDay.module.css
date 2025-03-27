@@ -1,0 +1,63 @@
+.addDoctorDay {
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.doctor {
+    display: flex;
+    margin-bottom: 7px;
+    margin-bottom: 35px;
+}
+.doctor img {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+.doctor_info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 5px;
+}
+.doctor_name {
+    font-weight: 500;
+    font-size: 16px;
+}
+.docot_desc {
+    font-weight: 400;
+    font-size: 10px;
+    color: var(--primary-color);
+}
+.time_text {
+    margin: 20px 0;
+}
+.addDoctorDay_inputs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+.time {
+    width: 40px;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 5px 0 5px 12px;
+}
+.addDoctorDay_btn {
+    padding: 5px 17px;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: var(--hover-text-color);
+    border: 1px solid var(--primary-color);
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: .3s all;
+}
+.addDoctorDay_btn:hover {
+    background-color: var(--hover-text-color);
+    color: var(--primary-color);
+}
+.doctor_img {
+    border-radius: 50%;
+}

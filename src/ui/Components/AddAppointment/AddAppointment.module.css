@@ -1,0 +1,60 @@
+.addappointment {
+    margin-bottom: 50px;
+}
+.addappointment_top {
+    display: flex;
+    align-items: end;
+    margin-bottom: 20px;
+}
+.input_name {
+    width: 35%;
+    margin-right: 25px;
+}
+.input_phone {
+    width: 35%;
+}
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    grid-gap: 5px;
+    width: 30%;
+}
+.addappointment input, .addappointment textarea {
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 5px 0 5px 12px;
+}
+.input_time {
+    width: 40px;
+}
+.addappointment_bottom {
+    display: flex;
+    position: relative;
+}
+.input_comment {
+    width: 35%;
+    margin-right: 25px;
+    resize: none;
+    height: 80px;
+    width: calc(35% - 18px);
+}
+.addappointment_btn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.addappointment_btn {
+    border: 1px solid var(--primary-color);
+    color: var(--hover-text-color);
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 7px 22px;
+    background-color: var(--primary-color);
+    cursor: pointer;
+    transition: .3s all;
+}
+.addappointment_btn:hover {
+    background-color: transparent;
+    color: var(--primary-color);
+}
